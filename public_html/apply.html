@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Apply</title>
+<link rel="Stylesheet" href="CSS/johnPages.css">
+<script src="JavaScript/john-js.js"></script>         
+<link rel="icon" type="image/png" href="images/logo.png" sizes="16x16">
+<link href="https://fonts.googleapis.com/css?family=Slabo+27px|Ubuntu" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+ <header>
+
+  <div id="contactinfo">
+                <div id="tel">1-800-1234-567, 1-800-6547-321</div>
+                <div id="phone"><img src="images/phone.png" alt="PhoneICon" style="height:40px; width:50px;" ></div>
+                <div id="email">info@demolink.org</div>
+                <div id="mail"><img src="images/email.png" alt="PhoneICon" style="height:40px; width:50px;" ></div>
+                <div id="locatxt">2130 Fulton Street San Diego, CA 94117-1080 USA</div>
+                <div id="location"><img src="images/location.jpg" alt="PhoneICon" style="height:40px; width:50px;" ></div>
+            </div>
+            <div id="navcontainer">
+                <div id="logobar">
+                    <div id="logocontainer">
+                        <div id="imagelogo"></div>
+                        <div id="uniname">Jonathan Carroll</div>
+                        <div id="uni">University</div>
+                    </div>
+                    <nav class="main">
+                        <div class="big-div">
+                            <ul class="main-ul">
+                                <li class="main-li">
+                                    <div class="navlinks">
+                                        <a href="home-page.html" class="link">Home </a>
+                                    </div>
+                                    <div class="navlinks">
+                                        <a href="#" class="link">Apply &#11167;</a>
+                                        <div class="submenu">
+                                            <ul>
+                                                <li><a href="admission.html">Admission</a></li>
+                                                <li><a href="inquire.html">Inquiry</a></li>
+                                                <li><a href="#">Online Course</a></li>
+                                                <li><a href="#">Financial Aid</a></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <div class="navlinks">
+                                        <a href="#" class="link">Academics &#11167;</a>
+                                        <div class="submenu">
+                                            <ul>
+                                                <li><a href="programs-courses.html">Programs & Courses</a></li>
+                                                <li><a href="tuition-fees.html">Tuition & Fees</a></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <div class="navlinks">
+                                        <a href="#" class="link">Newsroom &#11167;</a>
+                                        <div class="submenu">
+                                            <ul>
+                                                <li><a href="newscenter.html">Recent News</a></li>
+                                                <li><a href="sportsnews.html">Sports</a></li>
+                                                <li><a href="gallery.html">Gallery</a></li>
+                                            </ul>
+                                        </div>
+                                    </div> 
+                                    <div class="navlinks">
+                                        <a href="#" class="link">Explore &#11167;</a>
+                                        <div class="submenu">
+                                            <ul>
+                                                <li><a href="life-at-jonathan-carroll-uni.html">Beyond Classrooms</a></li>
+                                                <li><a href="#">Campus</a>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <div class="navlinks">
+                                        <a href="#" class="link">Library Services &#11167;</a>
+                                        <div class="submenu">
+                                            <ul>
+                                                <li><a href="library-services.html">Jonathan Library</a></li>
+                                                <li><a href="library-account.html">Library Account</a>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <div class="navlinks">
+                                        <a href="faq.html" class="link">FAQs &#11167</a>
+                                    </div>
+                                    <div class="navlinks">
+                                        <a href="#" class="link">About Us </a>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                    </nav>
+                </div>
+            </div>
+
+
+            <div class="topbar">
+                <div id="topbarText">
+                    APPLICATION FORM
+                    <div id="topbarlink">
+                        HOME  /  <span style="color:grey">APPLICATION FORM </span> 
+                    </div>
+                </div>
+            </div>
+
+</header>
+
+<br>
+<form id="MyForm" action="" method="post">
+
+<fieldset>
+<legend>Personal information</legend>   
+<div>       
+<label class="required">First Name:</label>
+<input name="firstname" type="text" autofocus required>
+<label class="required">Last Name:</label>
+<input name="lastname" type="text">
+<label class="required">Email:</label>
+<input name="email" type="email" placeholder="abc@example.com" required>     
+ <label class="required">Gender</label>
+ 
+<div>
+<label><input name="title" value="Mr" type="radio" required> Male</label>
+<label><input name="title" value="Mrs" type="radio"> Female</label>
+<label><input name="title" value="Ms" type="radio"> Undeclared</label>
+</div>
+</div>
+</fieldset>
+    
+<fieldset>
+<legend>Academic information</legend>
+        
+<label class="required">Type of Program:</label>
+<select name="list" required>
+<option>Undergraduate</option>
+<option>Post-Graduate</option>
+</select>
+      
+<label class="required">Program:</label>
+<select name="Plist" required>
+<option>Art,Animation & Design</option>
+<option>Baking & Culinary</option>
+<option>Business</option>
+<option>Engineering Technologies</option>
+<option>Fitness & Nutrition</option>
+<option>Health Sciences</option>
+<option>Hospitality & Tourism</option>
+<option>Information Technology</option>
+<option>Language Teaching & Training</option>
+<option>Media,Communication & Writing</option>
+<option>Music & Performing Arts</option>                
+</select>    
+</fieldset>
+
+<fieldset>
+<legend>Contact Information</legend>
+        
+<div>
+<label>Address:</label>
+<input name="address" required type="text">
+<label>Postal Code:</label>
+<input name="postal" required type="text" maxlength="6">
+<label>City:</label>
+<input name="city" required type="text">
+</div>
+</fieldset>
+    
+<div>
+<input name="submit" type="submit" value="Register to Panorama College!" onclick="validateForm()">
+</div>
+</form>
+
+<footer>
+<div class="footer">
+                <div>
+                    <div id="footerlogo"> </div>
+                </div>
+                <div>
+                    <ul>
+                        <li><a href="#"> Programs</a></li>
+                        <li><a href="#">Admissions</a></li>
+                        <li><a href="#">Student Life</a></li>
+                        <li><a href="#">About College</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <ul>                
+                        <li><a href="#">Library</a></li>
+                        <li><a href="#">News & Events</a></li>
+                        <li><a href="#">About College</a></li>
+                        </ul>
+                </div>
+                <div id="contactFooter">
+                     <ul>
+                        <li><b>Contact Us</b></li>
+                        <li> Jonathan Carroll University</li>
+                        <li>3123, Divine Blvd.</li>
+                        <li>Scarborough, ON</li>
+                        <li> &COPY Jonathan Carroll University </li>
+                     </ul>
+                    <a href="#" class="fa fa-facebook"></a>
+             <a href="#" class="fa fa-twitter"></a>
+             <a href="#" class="fa fa-google"></a>
+			 <a href="#" class="fa fa-instagram"></a>
+                </div>
+            </div>
+
+</footer>
+
+
+</body>
+</html>

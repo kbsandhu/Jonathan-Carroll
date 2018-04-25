@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Account Sign Up</title>  
+  <link rel="stylesheet" href="CSS/Library-Account.css">
+   <link rel="icon" type="image/png" href="images/logo.png" sizes="16x16">
+   </head>
+<body>
+<form class="modal-content animate" action="/action_page.php">
+    <div class="imgcontainer">
+      <span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close Modal"></span>
+      <img src="images/logo.png" alt="logo of the College" height="60" width="60">
+    </div>
+
+    <div class="container">
+      <label id="usrname">Username</label>
+      <input type="text" placeholder="Enter Username" name="uname" required>
+
+      <label id="pswd">Password</label>
+      <input type="password" placeholder="Enter Password" name="psw" required>
+        
+      <button type="submit">Login</button>
+    </div>
+    <div class="container" style="background-color:#f1f1f1">
+      <button type="button"  class="cancelbtn">Cancel</button>
+    </div>
+  </form>
+  <script>
+var modal = document.getElementById('id01');
+window.onclick = function(event) {
+    if (event.target == modal) {
+        modal.style.display = "none";
+    }
+}
+</script>
+  </body>
+  </html>
